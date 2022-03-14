@@ -1,0 +1,41 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "json.format.enable": false,
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.rulers": [80],
+
+  "javascript.format.enable": false,
+  "javascript.suggest.completeFunctionCalls": true,
+  "javascript.validate.enable": false,
+
+  "typescript.format.enable": false,
+  "typescript.validate.enable": false,
+  "typescript.suggest.completeFunctionCalls": true,
+  "cSpell.words": [
+    "commitlint",
+    "frontmatter"
+  ],
+  "todohighlight.exclude": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.map",
+    "**/.next/**",
+    "*.json"
+  ]
+}

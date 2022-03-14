@@ -1,0 +1,44 @@
+{
+  "name": "deepfrozen",
+  "version": "0.1.0",
+  "description": "Ice, ice, baby",
+  "main": "\"\"",
+  "scripts": {
+    "commit": "commit",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tillhainbach/deepfrozen.git"
+  },
+  "keywords": [
+    "pnpm",
+    "React",
+    "Preact",
+    "Chakra-UI",
+    "Gatsby",
+    "websites"
+  ],
+  "author": "Till Hainbach <till.hainbach@posteo.de>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/tillhainbach/deepfrozen/issues"
+  },
+  "homepage": "https://github.com/tillhainbach/deepfrozen#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@commitlint/prompt-cli": "^16.2.1",
+    "eslint": "^8.11.0",
+    "eslint-config-tk": "workspace:^0.0.0",
+    "lint-staged": "^12.3.5",
+    "prettier": "^2.5.1",
+    "prettier-config-tk": "workspace:^0.0.0",
+    "typescript": "^4.6.2"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md,yaml,yml}": "prettier --write"
+  }
+}
