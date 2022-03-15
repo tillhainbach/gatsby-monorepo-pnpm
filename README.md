@@ -1,6 +1,9 @@
-# DeepFrozen 🥶
+# PNPM + Gatsby Monorepo example
 
-Ice-Cool projects, handcrafted in Berlin.
+Monorepo for multiple projects, e.g. gatsby-based websites using pnpm
+workspaces. The repo is set-up with github-actions, commitlint, eslint,
+prettier, typescript for best DX. Eslint and prettier configs are based of
+common shareable-config-packages found in the config directory.
 
 ## Repo setup
 
@@ -25,8 +28,3 @@ If you want to execute a command for the workspace root, pass the `-w` flag.
 ```sh
 pnpm -w add -D eslint
 ```
-
-## Naming Conventions
-
-All React components and their files should be PascalCase, however, Gatsby page
-files should be kebab-case (this makes it easy to map page-slugs to file names)
