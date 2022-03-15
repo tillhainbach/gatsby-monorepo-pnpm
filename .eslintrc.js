@@ -1,3 +1,3 @@
 module.exports = {
-  extends: [],
+  extends: ['eslint-config-tk'],
 };

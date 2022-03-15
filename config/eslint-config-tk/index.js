@@ -15,5 +15,13 @@ module.exports = {
   plugins: ['react', '@typescript-eslint'],
   rules: {
     'react/require-default-props': ['off'],
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    'import/order': [
+      'error',
+      {
+        'newlines-between': 'always',
+        alphabetize: { order: 'asc', caseInsensitive: true },
+      },
+    ],
   },
 };

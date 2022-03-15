@@ -1,7 +1,4 @@
-import * as React from 'react';
-import { Link } from 'gatsby';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
-
 import {
   Heading,
   Flex,
@@ -14,6 +11,8 @@ import {
   Stack,
   useBreakpointValue,
 } from '@chakra-ui/react';
+import { Link } from 'gatsby';
+import * as React from 'react';
 
 interface HeaderProps {
   siteTitle: string;
@@ -47,6 +46,7 @@ function Header({ siteTitle = '' }: HeaderProps) {
         </Heading>
         <Spacer />
         <IconButton
+          aria-label={`${isOpen ? 'close' : 'open'} navigation menu`}
           onClick={onToggle}
           icon={isOpen ? <CloseIcon /> : <HamburgerIcon w={6} h={12} />}
           visibility={['visible', null, 'hidden']}

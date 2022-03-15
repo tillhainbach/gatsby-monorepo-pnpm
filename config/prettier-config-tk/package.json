@@ -9,5 +9,8 @@
   },
   "dependencies": {
     "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "eslint-config-tk": "workspace:^0.0.0"
   }
 }
