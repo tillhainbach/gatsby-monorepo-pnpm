@@ -22,6 +22,7 @@
   "typescript.validate.enable": false,
   "typescript.suggest.completeFunctionCalls": true,
   "cSpell.words": [
+    "chakra",
     "commitlint",
     "frontmatter"
   ],

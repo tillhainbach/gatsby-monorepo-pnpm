@@ -5,8 +5,7 @@
   "main": "\"\"",
   "scripts": {
     "cm": "git-cz",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -33,6 +32,7 @@
     "commitizen": "^4.2.4",
     "eslint": "^8.11.0",
     "eslint-config-tk": "workspace:^0.0.0",
+    "inquirer": "^8.2.1",
     "lint-staged": "^12.3.5",
     "prettier": "^2.5.1",
     "prettier-config-tk": "workspace:^0.0.0",
