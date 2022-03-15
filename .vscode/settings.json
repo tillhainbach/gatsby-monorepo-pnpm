@@ -21,11 +21,7 @@
   "typescript.format.enable": false,
   "typescript.validate.enable": false,
   "typescript.suggest.completeFunctionCalls": true,
-  "cSpell.words": [
-    "chakra",
-    "commitlint",
-    "frontmatter"
-  ],
+  "cSpell.words": ["chakra", "commitlint", "frontmatter"],
   "todohighlight.exclude": [
     "**/node_modules/**",
     "**/bower_components/**",
@@ -39,7 +35,5 @@
     "**/.next/**",
     "*.json"
   ],
-  "cSpell.ignoreWords": [
-    "typecheck"
-  ]
+  "cSpell.ignoreWords": ["typecheck"]
 }
